@@ -1,0 +1,13 @@
+plugins {
+    id "application"
+}
+
+apply plugin: 'java'
+
+ext {
+    javaMainClass = "rekevicius.adventofcode.Main"
+}
+
+application {
+    mainClass.set(javaMainClass)
+}
